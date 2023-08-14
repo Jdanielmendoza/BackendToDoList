@@ -10,6 +10,9 @@ export const pool = new Pool({
     password: process.env.DB_PASSWORD,
     port: process.env.DB_PORT,
     max : 10, // Número máximo de conexiones en el pool , por default es 10 si no se especifica 
+    ssl:{
+      rejectUnauthorized: false
+    }
   })  
 
  //pool.connect(); 
