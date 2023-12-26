@@ -1,4 +1,4 @@
-import Grafo from "../../services/grafos/grafo.js";
+import Grafo from "../../services/grafos/Grafo.js";
 import { getAllUsers, getAllUsersGroup } from "../user/user.model.js";
 import {
   acceptFriendRequestModel,
