@@ -144,10 +144,10 @@ export default class Grafo {
     return result;
   }
 
-  sugerenciaDeAmigos(vertice) {
+  sugerenciaDeAmigos(vertice) {//1
     this.validarVertice(vertice);
     const adyacentes = this.adyacentesDeVertice(vertice);
-
+    //[6 , 5]
     const sugerencias = [];
 
     adyacentes.forEach((amigo) => {
